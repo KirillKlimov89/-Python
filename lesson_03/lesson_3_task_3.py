@@ -22,4 +22,3 @@ print(
     f"{mailing.to_address.apartment}. "
     f"Стоимость {mailing.cost} рублей."
 )
-
