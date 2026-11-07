@@ -1,9 +1,9 @@
 from selenium import webdriver
 
-from login_page import LoginPage
-from main_shop_page import MainShopPage
-from cart_page import CartPage
-from checkout_page import CheckoutPage
+from pages.login_page import LoginPage
+from pages.main_shop_page import MainShopPage
+from pages.cart_page import CartPage
+from pages.checkout_page import CheckoutPage
 
 
 def test_saucedemo_purchase():

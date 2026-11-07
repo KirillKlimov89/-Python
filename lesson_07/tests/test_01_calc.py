@@ -1,6 +1,6 @@
 from selenium import webdriver
 
-from calculator_page import CalculatorPage
+from pages.calculator_page import CalculatorPage
 
 
 def test_slow_calculator():
